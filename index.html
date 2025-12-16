@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Youtube</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-content">
+            <a class="title-section" href="#">
+                <i id="logo"class="fa-brands fa-youtube"></i>
+                <span>YouTube</span>
+            </a>
+
+            <div class="search-section">
+                <input type="text" class="searchbar" placeholder="Search">
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="mic-button"><i class="fa-solid fa-microphone"></i></button>
+            </div>
+
+            <div class="login-section">
+                <button class="settings-button">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <button class="login-button">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Sign in</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div id="chipFilter" class="chip-filter"></div>
+    </div>
+<script src="chip.js"></script>
+</body>
+</html>
