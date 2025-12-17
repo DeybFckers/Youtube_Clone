@@ -5,6 +5,8 @@ body{
     padding: 0;
     scroll-behavior: smooth;
     font-family: "Roboto", "Arial", sans-serif;
+    overflow-y: auto;  
+    height: 100vh; 
 }
 
 a{
@@ -116,9 +118,15 @@ a{
     justify-content: center;
     gap: 1rem;
     cursor: pointer;
+    
 }
 
 .language{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
     border: 1px;
     padding: 8px;
     border-radius: 10px;
@@ -132,6 +140,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    justify-content: center;
+    align-content: start;
 }
 
 .video-card {
@@ -143,6 +153,8 @@ a{
     text-align: left;
     background-color: transparent;
     width: 28rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .video-card:hover{
