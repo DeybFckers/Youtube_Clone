@@ -4,7 +4,8 @@ const videos = [
         title: "C# Tutorial - Full Course for Beginners by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "8.8M Views",
-        link: "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+        link: "https://www.youtube.com/watch?v=GhQdlIFylQ8",
+        category: "C#"
     },
 
     {
@@ -12,7 +13,8 @@ const videos = [
         title: "HTML Tutorial for Beginners by Kevin Stravert",
         channel: "Kevin Stravert",
         views: "1.1M Views",
-        link: "https://www.youtube.com/watch?v=FQdaUv95mR8"
+        link: "https://www.youtube.com/watch?v=FQdaUv95mR8",
+        category: "Html"
     },
 
     {
@@ -20,7 +22,8 @@ const videos = [
         title: "CSS Introduction and Tutorial for Beginners by Dave Gray",
         channel: "Dave Gray",
         views: "162k Views",
-        link: "https://www.youtube.com/watch?v=0W6qz0-aDaM"
+        link: "https://www.youtube.com/watch?v=0W6qz0-aDaM",
+        category: "CSS"
     },
 
     {
@@ -28,7 +31,8 @@ const videos = [
         title: "JavaScript tutorial for Beginners by Bro Code",
         channel: "Bro Code",
         views: "683k Views",
-        link: "https://www.youtube.com/watch?v=Ihy0QziLDf0"
+        link: "https://www.youtube.com/watch?v=Ihy0QziLDf0",
+        category: "JavaScript"
     },
 
     {
@@ -36,7 +40,8 @@ const videos = [
         title: "Learn Angular - Full Tutorial Course by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "633k Views",
-        link: "https://www.youtube.com/watch?v=2OHbjep_WjQ"
+        link: "https://www.youtube.com/watch?v=2OHbjep_WjQ",
+        category: "Angular"
     },
 
     {
@@ -44,7 +49,8 @@ const videos = [
         title: "Learn Node.js - Full Tutorial for Beginners by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "1.2M Views",
-        link: "https://www.youtube.com/watch?v=RLtyhwFtXQA"
+        link: "https://www.youtube.com/watch?v=RLtyhwFtXQA",
+        category: "Node.js"
     },
 
     {
@@ -52,7 +58,8 @@ const videos = [
         title: "React Crash Course for Beginners - Learn ReactJS from Scratch in this 100% Free Tutorial! by Academind",
         channel: "Academind",
         views: "683k Views",
-        link: "https://www.youtube.com/watch?v=Dorf8i6lCuk"
+        link: "https://www.youtube.com/watch?v=Dorf8i6lCuk",
+        category: "React.js"
     },
 
     {
@@ -60,7 +67,8 @@ const videos = [
         title: "Asp.net Tutorial for Beginners | Asp.net Full Course 2026|.NET for Beginners by Simplilearn",
         channel: "Simplilearn",
         views: "99k Views",
-        link: "https://www.youtube.com/watch?v=nelyq4LD-KY"
+        link: "https://www.youtube.com/watch?v=nelyq4LD-KY",
+        category: "Asp.Net"
     },
 
     {
@@ -68,7 +76,8 @@ const videos = [
         title: "Dart Programming Language Tutorial for Beginners | Full Course in 3 hours by Fullstack School",
         channel: "Fullstack School",
         views: "7.1k Views",
-        link: "https://www.youtube.com/watch?v=8D1UK3hq8U8" 
+        link: "https://www.youtube.com/watch?v=8D1UK3hq8U8",
+        category: "Dart"
     },
 
     {
@@ -76,15 +85,17 @@ const videos = [
         title: "Flutter Tutorial For Beginners in 3 Hours by Flutter Mapp",
         channel: "Flutter Mapp",
         views: "730K Views",
-        link: "https://www.youtube.com/watch?v=CD1Y2DmL5JM"
+        link: "https://www.youtube.com/watch?v=CD1Y2DmL5JM",
+        category: "Flutter"
     },
 
     {
         img: "https://i.ytimg.com/vi/KOutPbKc9UM/maxresdefault.jpg",
-        title: "Intro to Backend Web Development – Node.js & Express Tutorial for Beginners by freeCodeCamp",
+        title: "Intro to Backend Web Development - Node.js & Express Tutorial for Beginners by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "84k Views",
-        link: "https://www.youtube.com/watch?v=KOutPbKc9UM"
+        link: "https://www.youtube.com/watch?v=KOutPbKc9UM",
+        category: "Backend"
     },
 
     {
@@ -92,7 +103,8 @@ const videos = [
         title: "Frontend Web Development: In-Depth Project Tutorial (HTML, CSS, JavaScript, TypeScript, React) by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "359k Views",
-        link: "https://www.youtube.com/watch?v=MsnQ5uepIaE"
+        link: "https://www.youtube.com/watch?v=MsnQ5uepIaE",
+        category: "Frontend"
     },
 
     {
@@ -100,7 +112,8 @@ const videos = [
         title: "Learn Go Programming - Golang Tutorial for Beginners by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "2.5M Views",
-        link: "https://www.youtube.com/watch?v=YS4e4q9oBaU"
+        link: "https://www.youtube.com/watch?v=YS4e4q9oBaU",
+        category: "Go"
     },
 
     {
@@ -108,7 +121,8 @@ const videos = [
         title: "Rust Tutorial for Beginners - Full Course (With Notes and Project Ideas) by Harkirat Singh",
         channel: "Harkirat Singh",
         views: "279k Views",
-        link: "https://www.youtube.com/watch?v=qP7LzZqGh30"
+        link: "https://www.youtube.com/watch?v=qP7LzZqGh30",
+        category: "Rust"
     },
 
     {
@@ -116,7 +130,8 @@ const videos = [
         title: "C++ Tutorial for Beginners - Full Course by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "13M Views",
-        link: "https://www.youtube.com/watch?v=vLnPwxZdW4Y"
+        link: "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
+        category: "C++"
     },
 
     {
@@ -124,7 +139,8 @@ const videos = [
         title: "C Tutorial for Beginners - Full Course by freeCodeCamp",
         channel: "freeCodeCamp.org",
         views: "18M Views",
-        link: "https://www.youtube.com/watch?v=KJgsSFOSQv0"
+        link: "https://www.youtube.com/watch?v=KJgsSFOSQv0",
+        category: "C"
     },
 
     {
@@ -132,7 +148,8 @@ const videos = [
         title: "Java Full Course for Beginners by Programming with Mosh",
         channel: "Programming with Mosh",
         views: "13M Views",
-        link: "https://www.youtube.com/watch?v=eIrMbAQSU34"
+        link: "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        category: "Java"
     },
 
     {
@@ -140,7 +157,8 @@ const videos = [
         title: "What is Artificial Intelligence Exactly? by ColdFusion",
         channel: "ColdFusion",
         views: "2.1M Views",
-        link: "https://www.youtube.com/watch?v=kWmX3pd1f10"
+        link: "https://www.youtube.com/watch?v=kWmX3pd1f10",
+        category: "AI"
     },
 
     {
@@ -148,7 +166,8 @@ const videos = [
         title: "What is an Algorithm ? | Data Structures and Algorithms by Simple Snippets",
         channel: "Simple Snippets",
         views: "122k Views",
-        link: "https://www.youtube.com/watch?v=sk0yrh3DNXo"
+        link: "https://www.youtube.com/watch?v=sk0yrh3DNXo",
+        category: "Algorithms"
     },
 ]
 

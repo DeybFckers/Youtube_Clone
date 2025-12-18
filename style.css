@@ -48,10 +48,9 @@ a{
     padding-right: 4px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     font-size: 1rem;
-    
     font-weight: 400;
     outline: none;
 }
@@ -60,12 +59,13 @@ a{
     padding: 0;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     height: 40px;
     width: 4rem;
     fill: rgb(15, 15, 15);
     cursor: pointer;
+    background-color: #f8f8f8;
 }
 
 .search-button i {
@@ -118,6 +118,7 @@ a{
     justify-content: center;
     gap: 1rem;
     cursor: pointer;
+    padding-bottom: 10px;
     
 }
 
@@ -136,12 +137,16 @@ a{
     
 }
 
+.language.active{
+    background-color: black;
+    color: white;
+}
+
 .videos{
     display: flex;
     flex-wrap: wrap;
     padding: 0;
     justify-content: center;
-    align-content: start;
 }
 
 .video-card {
