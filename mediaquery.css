@@ -31,3 +31,51 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 425px){
+    .searchbar{
+        display: none;
+    }
+
+    .mic-button{
+        display: none;
+    }
+
+    .search-button{
+        width: 8rem;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px){
+
+    .searchbar{
+        display: none;
+    }
+
+    .mic-button{
+        display: none;
+    }
+
+    .search-button{
+        width: 5.5rem;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+    }
+
+    .videos{
+        display: flex;
+        justify-content: center;
+    }
+}
